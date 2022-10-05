@@ -1,0 +1,18 @@
+{
+    "lang": "es-mx",
+    "name": "Curriculum Vitae",
+    "short_name": "CV Profile",
+    "description": "Una PWA enfocado a mi Curriculum Vitae",
+    "start_url": "./?utm_source=web_app_manifest",
+    "background_color": "rgb(128,0,128)",
+    "theme_color": "rgb(255,165,0)",
+    "orientation": "any",
+    "display": "standalone",
+    "scope":"./",
+    "icons": [
+        {
+            "src": "./img/Apperture Mesa.png",
+            "sizes": "512x512"
+        }
+    ]
+}

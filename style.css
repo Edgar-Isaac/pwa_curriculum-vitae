@@ -1,0 +1,76 @@
+html{
+    background-color: rgb(0, 0, 0);
+}
+header{
+    font-style: oblique;
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    height: 100px;
+    margin: 0px;
+    color: white;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    -ms-flex-align: center;
+    margin: 0px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    background: 
+        linear-gradient(rgb(0, 0, 0) 0 0) padding-box, /*this is your grey background*/
+        linear-gradient(to right, orange, purple) border-box;
+    transition: all 1s linear;
+    transition-timing-function: ease-in-out;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+  
+
+}
+section:hover{
+    background: 
+    linear-gradient(rgb(36, 36, 36) 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to right, orange, purple) border-box;
+    overflow: visible;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.leftcolumn{
+    text-align: left;
+    order: 1;
+    flex: 1;
+
+}
+
+.rightcolumn{
+    text-align: right;
+    order: 2;
+    flex: 1;
+
+
+}
+
+img{
+    width: 40%;
+    height: 40%;
+}
+
+
+
+
+footer{
+    flex-direction: column;
+    margin-top: auto;
+
+}
