@@ -3,6 +3,7 @@ urlsToCache=[
     './style.css',
     './script.js',
     './img/Apperture Mesa.png',
+    './img/Apperture Mesa-500.png',
     './img/bullseye-icon.png',
     './img/cazadorNW.png',
     './img/Csharp_Logo.png',
