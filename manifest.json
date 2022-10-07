@@ -9,6 +9,7 @@
     "orientation": "any",
     "display": "standalone",
     "scope":"./",
+    "id":"/pwa_curriculum-vitae/",
     "icons": [
         {
             "src": "./img/Apperture Mesa-500.png",
