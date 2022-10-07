@@ -7,8 +7,9 @@
         <link rel="manifest" href="./manifest.json">
         <link rel="stylesheet" href="./style.css">
         <link rel="shortcut icon" href="./img/Apperture Mesa-500.png" type="image/x-icon">
-        <title>My CV</title> 
-    </head>
+        <link rel="canonical" href="https://edgar-isaac.github.io/pwa_curriculum-vitae/">
+        <title>My CV</title>                                                                                                                                                                                                                                                                                                           
+    </head> 
     <header>
         <div id="cabecera">
             <h1>Bienvenido a mi Curriculum Vitae</h1>
@@ -27,7 +28,7 @@
             <div class="rightcolumn">
                 <img src="./img/Perfil.png">
             </div>
-        </section>
+        </section>                                            
 
         <section>
             <div class="rightcolumn">
@@ -84,7 +85,9 @@
     <footer>
             Creado y desarrollado por Edgar Meléndez
     </footer>
-    <script src="/script.js">
-       
+    <script>
+       if (navigation.serviceWorker) {
+        navigator.serviceWorker.register('./pwa_curriculum-vitae/sw.js',{scope: '/pwa_curriculum-vitae/'})
+       }
     </script>
 </html>
