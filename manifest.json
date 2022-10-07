@@ -3,12 +3,12 @@
     "name": "Curriculum Vitae",
     "short_name": "CV Profile",
     "description": "Una PWA enfocado a mi Curriculum Vitae",
-    "start_url": "./?utm_source=web_app_manifest",
+    "start_url": "https://edgar-isaac.github.io/pwa_curriculum-vitae/",
     "background_color": "rgb(128,0,128)",
     "theme_color": "rgb(255,165,0)",
     "orientation": "any",
     "display": "standalone",
-    "scope":"./",
+    "scope":"https://edgar-isaac.github.io/pwa_curriculum-vitae/",
     "icons": [
         {
             "src": "./img/Apperture Mesa-500.png",
