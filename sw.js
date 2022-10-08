@@ -9,7 +9,7 @@ urlsToCache=[
     './img/Csharp_Logo.png',
     './img/Perfil.png',
     './img/unity-tab.png',
-    './sw.js'
+    './'
 ]
 
 //Almacenar en cache durante la instalación
