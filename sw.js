@@ -1,3 +1,5 @@
+;
+
 const CACHE_NAME ='v1_cache_cv',
 urlsToCache=[
     './',
@@ -31,14 +33,14 @@ self.addEventListener('activate',e=>{
 
     e.waitUntil(
         caches.keys()
-        .then(cacheNames=>{
-            cacheNames.map(cacheName=>{
-                if(cacheWhitelist.indexOf(cacheName)===-1){
-                    return caches.delete(cacheName)
-                }
+            .then(cacheNames=>{
+                cacheNames.map(cacheName=>{
+                    if(cacheWhitelist.indexOf(cacheName)===-1){
+                        return caches.delete(cacheName)
+                    }
+                })
             })
-        })
-        .then(()=>self.clients.claim())
+            .then(()=>self.clients.claim())
     )
 })
 

@@ -1,20 +1,19 @@
 {
-    "lang": "es-mx",
     "name": "Curriculum Vitae",
     "short_name": "CV Profile",
     "description": "Una PWA enfocado a mi Curriculum Vitae",
     "start_url": "./index.html",
-    "background_color": "rgb(128,0,128)",
-    "theme_color": "rgb(255,165,0)",
+    "background_color": "#2B2B2B",
+    "theme_color": "#F0DB4F",
     "orientation": "any",
     "display": "standalone",
     "scope":"./",
-    "id":"/pwa_curriculum-vitae/",
+    "lang": "es-MX",
     "icons": [
         {
             "src": "./img/Apperture Mesa-500.png",
             "sizes": "512x512",
-            "type":"image/png"
+            "type:": "image/png"
         }
     ]
 }
