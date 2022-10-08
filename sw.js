@@ -1,5 +1,6 @@
 const CACHE_NAME ='v1_cache_cv',
 urlsToCache=[
+    './',
     './style.css',
     './script.js',
     './img/Apperture Mesa.png',
@@ -9,7 +10,7 @@ urlsToCache=[
     './img/Csharp_Logo.png',
     './img/Perfil.png',
     './img/unity-tab.png',
-    './'
+    
 ]
 
 //Almacenar en cache durante la instalación
