@@ -1,8 +1,9 @@
-//;
-
-const CACHE_NAME ='v1_cache_cv',
+var APP_PREFIX = 'PWACVitae'     
+var VERSION = 'version_01'              
+var CACHE_NAME = APP_PREFIX + VERSION
 URLS=[
     './',
+    './sw.js',
     './style.css',
     './script.js',
     './img/Apperture Mesa.png',
